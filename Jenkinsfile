@@ -2,12 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Check_dependencies') {
+        stage('Check_binaries') {
             steps {
-                pwd
+                sh "python --version"
             }
         }
-
 
         // stage('Execute_progrm') {
         //     steps {
