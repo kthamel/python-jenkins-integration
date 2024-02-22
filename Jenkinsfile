@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Check_dependencies') {
             steps {
-                hostname
+                pwd
             }
         }
 
