@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Check_binaries') {
             steps {
-                sh "python --version"
+                sh "python3 --version"
             }
         }
 
