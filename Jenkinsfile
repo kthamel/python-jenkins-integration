@@ -5,7 +5,6 @@ pipeline {
         stage('Check_dependencies') {
             steps {
                 echo 'python3 --version'
-                echo $HOSTNAME
             }
         }
 
