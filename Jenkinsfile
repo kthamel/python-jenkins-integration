@@ -9,10 +9,10 @@ pipeline {
         }
 
 
-        stage('Execute_progrm') {
-            steps {
-                python3 test.py
-            }
-        }
+        // stage('Execute_progrm') {
+        //     steps {
+        //         python3 test.py
+        //     }
+        // }
     }
 }
